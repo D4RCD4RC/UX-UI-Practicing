@@ -1,0 +1,31 @@
+SNEPPET REACT
+ES7+react/Redux/React-Native snippets
+
+INSTALL YARN
+npm install --global yarn
+
+INSTALAR SASS
+-yarn add sass
+-npm install sass
+
+INSTALAR REACT ROUTER DOM
+yarn add react-router.dom
+
+ICONOS
+yarn add @mui/material @emotion/react @emotion/styled (AQUI INSTALAMOS TODO)
+
+aladiendo al final esto "yarn add @mui/icons-material" instalamos solo iconos
+
+
+LIBRERIA PARA CREAR GRAFICO  CIRCULO
+yarn add react-circular-progressbar
+
+
+LIBRERIA PARA GRAFICOS 
+npm i recharts
+yarn add recharts
+
+
+instalar libreria para un datagrid (DATA TABLE)
+npm i @mui/x-data-grid
+

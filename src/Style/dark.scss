@@ -1,0 +1,70 @@
+$colorGrayDark: rgb(21, 21, 21);
+$colorGrayLight: rgb(181, 180, 180);
+$colorBorders: #333;
+
+.app.dark{
+    background-color: $colorGrayDark;
+    color: $colorGrayLight;
+
+    .chartGrid{
+        stroke: rgba(228, 228, 228, 0.228);
+    }
+
+    .table{
+        background-color: $colorGrayDark;
+
+        .tableCell{
+            color: $colorGrayLight;
+        }
+    }
+
+    .navBar{
+        color: $colorGrayLight;
+        border-color: $colorBorders;
+    }
+
+    .search{
+        border-color: $colorGrayLight;
+    }
+
+    .sideBar{
+        background-color: $colorGrayDark;
+        border-color: $colorBorders;
+
+        .top{
+            .logo{
+                color: $colorGrayLight;
+            }
+        }
+
+        hr{
+            border-color: $colorBorders;
+        }
+
+        ul{
+            li{
+                &:hover{
+                    background-color: $colorBorders;
+                }
+
+                .icon{
+                    color: $colorGrayLight;
+                }
+            }
+        }
+    }
+    .dataTable{
+        .dataGrid{
+        color: $colorGrayLight;
+        border: none;
+
+        .viewButton, .deleteButton, .cellWithStatus{
+            color:$colorGrayLight;
+            border: 1px solid rgba(128, 128, 128, 0.229);
+        }
+        }
+    }
+    input{
+        background-color: transparent;
+    }
+}
